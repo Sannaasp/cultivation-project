@@ -1,0 +1,20 @@
+.image {
+  width: 50%;
+  height: 50%;
+}
+
+.vegBox {
+  background-color: #efebe4;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  border-radius: 10px;
+}
+
+.imgContainer {
+  background-color: #efebe4;
+  margin: 10px;
+}

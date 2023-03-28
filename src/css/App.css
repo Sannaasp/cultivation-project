@@ -36,3 +36,27 @@ body {
   top: 0%;
   right: 10%;
 }
+
+.category {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  object-fit: contain;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.categoryName {
+  position: relative;
+}
+
+.categoryTitle {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  background-color: white;
+}

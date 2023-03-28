@@ -1,17 +1,20 @@
 .navbar {
   background-color: #fffef8;
-  display: flex;
-  width: 100%;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  color: #504139;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
+  justify-content: space-around;
 }
 
-.navbar li {
-  justify-content: space-between;
+a:visited {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
 }
