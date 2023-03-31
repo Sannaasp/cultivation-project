@@ -8,13 +8,14 @@ import About from "./components/About";
 import Vegetables from "./components/Vegetables";
 import HomeView from "./views/HomeView";
 import CategoryCard from "./components/CategoryCard";
+import VegView from "./views/VegView";
 
 function Root() {
   return (
     <div className="App">
       <NavBar />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
@@ -26,6 +27,7 @@ function App() {
         { element: <About />, path: "/about" },
         { element: <Vegetables />, path: "/vegetables" },
         { element: <CategoryCard />, path: "/CategoryCard/:category" },
+        { element: <VegView />, path: "/VegView/:name" },
       ],
       element: <Root />,
     },

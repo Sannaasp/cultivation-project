@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "../css/CategoryCard.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function CategoryCard() {
   const [vegetables, setVegetables] = useState(null);
@@ -66,6 +67,9 @@ function CategoryCard() {
                 >
                   Läs mer
                 </button>
+                <Link to={`/VegView/${vegetable.name}`}>
+                  <button>Se grönsak </button>
+                </Link>
                 <p>{heading}</p>
                 <p>{description}</p>
               </li>
