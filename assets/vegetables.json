@@ -1,0 +1,129 @@
+[
+  {
+    "kryddor": ["Dill", "Persilja"],
+    "bär": ["Hallon", "Jordgubbar"],
+    "Rotfrukter": ["Potatis", "Morötter"],
+    "Grönsaker": ["Tomater", "Gurka", "Rädisa"],
+    "Sallad": ["Sallad"],
+
+    "id": 1,
+    "name": "potatis",
+    "placement": "Välj en plats med bra dränering och soligt läge. Potatis trivs i fuktig jord men behöver också mycket sol för att växa bra.",
+    "soil": "Potatis trivs i väldränerad jord med högt organiskt innehåll. Om jorden är kompakt eller lera, se till att förbättra dräneringen genom att lägga till sand eller kompost.",
+    "planting": "Plantera potatisen på våren när jorden är varm nog, vanligtvis i slutet av april eller början av maj. Gräv en fördjupning på 10-15 cm djup och plantera potatisarna med avstånd på ca 30 cm mellan varje potatis. Se till att potatisarna planteras med ögonen uppåt.",
+    "watering": "Potatisen behöver mycket vatten, särskilt under torkperioder. Vattna regelbundet och se till att jorden håller sig fuktig men inte för blöt.",
+    "harvest": "Potatisen är redo att skördas när plantorna vissnar och dör av, vanligtvis 90-120 dagar efter plantering. Gräv upp potatisarna varsamt med en potatishacka eller en spade och låt dem torka utomhus i några timmar innan du rensar dem.",
+    "img": "images/potatis.jpg",
+    "category": "rotfrukter"
+  },
+  {
+    "id": 2,
+    "name": "morötter",
+    "placement": "Välj en solig plats med väldränerad jord: Morötter trivs bäst i en lös och väldränerad jord som inte är alltför rik på gödsel.",
+    "soil": "Innan du planterar morötter, se till att jorden är fri från stenar och ogräs och att den har tillräckligt med organiskt material som kompost eller torv.",
+    "planting": "Plantera fröna på rätt djup: Morotsfrön ska planteras på ett djup av ca 1 cm i marken. Det är viktigt att inte plantera dem för djupt, eftersom det kan göra det svårt för plantorna att gro.",
+    "watering": "Morötter behöver regelbundet vatten för att växa bra. Se till att vattna dem djupt en gång i veckan om det inte har regnat tillräckligt.",
+    "harvest": "Morötter kan skördas när de är mogna, vilket vanligtvis är cirka 2-3 månader efter sådd. Försök att undvika att skada morötterna när du gräver upp dem ur jorden. Om du inte ska använda morötterna direkt, förvara dem i kallt vatten eller i kylskåp för att hålla dem fräscha längre.",
+    "img": "images/morötter.jpg",
+    "category": "rotfrukter"
+  },
+  {
+    "id": 3,
+    "name": "jordgubbar",
+    "placement": "Välj en solig och väldränerad plats: Jordgubbar trivs bäst i full sol och väldränerad jord. Platsen bör vara skyddad mot starka vindar och kalla temperaturer.",
+    "soil": "Jordgubbar trivs i en näringsrik jord med en pH-nivå på mellan 5,5 och 6,5. Se till att du gräver upp jorden till en djup av ca 20-30 cm och tillsätt gödsel och/eller kompost för att förbättra jordens struktur och näringsinnehåll.",
+    "planting": "Plantera jordgubbsplantorna på våren eller hösten, med ca 30 cm avstånd mellan varje planta. Plantera dem i en nivå på samma djup som de var i sina ursprungliga krukor eller fröpåsar",
+    "watering": " Jordgubbar behöver regelbundet vatten för att trivas. Se till att vattna dem ordentligt och regelbundet, särskilt under torra perioder.",
+    "harvest": "Jordgubbar är redo att skördas när de är mörkröda och mjuka vid beröring. Skörda dem försiktigt och förvara dem på en sval och torr plats för att hålla dem fräscha längre.",
+    "img": "images/jordgubbar.jpg",
+    "category": "bär"
+  },
+  {
+    "id": 4,
+    "name": "hallon",
+    "placement": "Hallon trivs i en solig plats, men de kan också växa i halvskugga. Se till att välja en plats med en god dränering och en jord som är rik på organiskt material.",
+    "soil": "För att förbättra jordstrukturen och näringsinnehållet kan du tillsätta kompost eller annan organiskt material i jorden innan du planterar hallonen. Se till att gräva upp jorden till en djup av ca 30-40 cm och ta bort eventuella ogräs.",
+    "planting": "Plantera hallonbuskar på våren eller hösten. Gräv en grop som är tillräckligt djup för att rymma plantans rötter, och placera busken i gropen. Täck med jord och vattna försiktigt.",
+    "watering": " Hallonbuskar behöver regelbundet vatten för att trivas. Se till att vattna dem ordentligt och regelbundet, men undvik att övervattna eftersom det kan orsaka rötterna att ruttna.",
+    "harvest": "Jordgubbar är redo att skördas när de är mörkröda och mjuka vid beröring. Skörda dem försiktigt och förvara dem på en sval och torr plats för att hålla dem fräscha längre.",
+    "img": "images/hallon.jpg",
+    "category": "bär"
+  },
+  {
+    "id": 5,
+    "name": "gurka",
+    "placement": "Gurkor trivs i full sol och behöver minst sex timmars solljus per dag för att växa ordentligt.",
+    "soil": "Gurkor trivs i en näringsrik jord med en pH-nivå på mellan 6 och 7. Se till att gräva upp jorden till en djup av ca 20-30 cm och tillsätt gödsel och/eller kompost för att förbättra jordens struktur och näringsinnehåll.",
+    "planting": "Plantera gurkfrön på våren eller sommaren när risken för frost har passerat. Plantera fröna ca 2,5 cm djupt och 30-45 cm isär. Du kan också plantera plantor istället för frön.",
+    "watering": "Gurkor behöver mycket vatten för att trivas. Se till att vattna dem ordentligt och regelbundet, men undvik att övervattna för att undvika att gurkorna ruttnar.",
+    "harvest": "Gurkorna är redo att skördas när de är ca 15-20 cm långa. Skörda dem regelbundet för att uppmuntra fortsatt produktion.",
+    "img": "images/hallon.jpg",
+    "category": "grönsaker"
+  },
+  {
+    "id": 6,
+    "name": "tomat",
+    "placement": "Tomater trivs bäst i full sol och behöver minst sex timmars solljus per dag för att växa ordentligt.",
+    "soil": "Tomater trivs i en näringsrik jord med en pH-nivå på mellan 6 och 7. Se till att gräva upp jorden till en djup av ca 20-30 cm och tillsätt gödsel och/eller kompost för att förbättra jordens struktur och näringsinnehåll.",
+    "planting": "Plantera tomatplantor efter att risken för frost har passerat på våren. Plantera dem i en nivå på samma djup som de var i sina ursprungliga krukor eller fröpåsar och ca 60 cm isär. Du kan också så frön inomhus några veckor innan du planterar ut dem.",
+    "watering": "Tomater behöver regelbundet vatten för att trivas. Se till att vattna dem ordentligt och regelbundet, men undvik att övervattna för att undvika att rötterna ruttnar.",
+    "harvest": "Tomater bör skördas när de har utvecklat sin fulla färg och har blivit mjuka vid beröring. En tomat som har mogna färger men som fortfarande är hård kan ha mindre smak och en hård konsistens. Generellt sett tar det cirka 60 till 80 dagar för tomaterna att mogna från det att plantan har blivit planterad. Det är också viktigt att notera att olika sorter av tomater kan ha olika mognadstider, så det är alltid bra att läsa på om den specifika sorten av tomat du odlar för att veta när den är redo att skördas.",
+    "img": "images/tomater.jpg",
+    "category": "grönsaker"
+  },
+  {
+    "id": 7,
+    "name": "sallad",
+    "placement": "Sallad trivs bäst på platser med full sol eller delvis skugga. Se till att din odling får minst sex timmars sol varje dag.",
+    "soil": "Sallad trivs i en näringsrik jord med bra dränering. Tillsätt kompost eller annan organisk materia för att förbättra jordens struktur och näringsinnehåll.",
+    "planting": "Salladsfrön kan sås direkt i marken eller i en behållare. Se till att hålla jorden fuktig under groddningen och tills de första bladen dyker upp.",
+    "watering": "Sallad behöver jämn fuktighet för att växa bra. Se till att vattna regelbundet, särskilt under torra perioder.",
+    "harvest": "När salladen har nått önskad storlek kan du skörda den genom att klippa av bladen med en sax eller kniv. Lämna några blad kvar för att fortsätta växa och producera mer sallad.",
+    "img": "images/sallad.jpg",
+    "cateogory": "sallad"
+  },
+  {
+    "id": 8,
+    "name": "lök",
+    "placement": "Lök trivs bäst i full sol och behöver minst sex timmars solljus per dag för att växa ordentligt.",
+    "soil": "Lök trivs i en väldränerad jord med hög näringshalt. Se till att gräva upp jorden till en djup av ca 20-30 cm och tillsätt gödsel och/eller kompost för att förbättra jordens struktur och näringsinnehåll.",
+    "planting": "Plantera lök på våren eller hösten, med ca 10 cm avstånd mellan varje lök. Plantera dem i en nivå på samma djup som de var i sina ursprungliga krukor eller fröpåsar.",
+    "watering": " Lök behöver regelbundet vatten för att trivas. Se till att vattna dem ordentligt och regelbundet, men undvik att övervattna för att undvika att lökarna ruttnar.",
+    "harvest": "Lökarna är redo att skördas när blasten vissnat och blivit brun. Gräv upp lökarna med en spade och låt dem torka utomhus i ca en vecka för att öka deras hållbarhet.",
+    "img": "images/Lök.jpg",
+    "category": "lök"
+  },
+  {
+    "id": 9,
+    "name": "dill",
+    "placement": "Dill trivs bäst på en solig plats, men kan också växa i lätt skugga. Se till att välja en plats där det finns gott om utrymme för dillen att växa upp till sin fulla höjd.",
+    "soil": "Dill trivs i en mullrik och väldränerad jord. Du kan också tillsätta kompost eller annan organiskt material för att förbättra jordens kvalitet.",
+    "planting": "Dill kan sås direkt på platsen där den ska växa. Så fröna i rader med en avstånd på cirka 30 cm mellan raderna och täck dem med ett tunt lager av jord. Vattna försiktigt.",
+    "watering": "Dill behöver jämn tillgång till vatten, men se till att jorden inte blir för blöt. Bevattning en till två gånger i veckan kan vara lämpligt, beroende på väderförhållandena.",
+    "harvest": "Dill kan skördas när plantan är cirka 30 cm hög. Klipp av topparna med en vass sax eller kniv och använd dillen direkt eller torka den för senare användning. Går utmärkt att frysa.",
+    "img": "images/dill.jpg",
+    "category": "kryddor"
+  },
+  {
+    "id": 10,
+    "name": "persilja",
+    "placement": "Persilja trivs bäst i en solig eller delvis skuggig plats. Undvik en plats som är för varm eller torr.",
+    "soil": "Persilja behöver en mullrik, väldränerad jord med ett pH-värde på 6,0 till 7,0. Tillsätt gärna kompost eller annan organiskt material för att förbättra jordens kvalitet.",
+    "planting": "Persilja kan sås direkt på platsen där den ska växa. Så fröna tunt och täck dem med ett tunt lager av jord. Vattna försiktigt.",
+    "watering": "Persilja behöver jämn tillgång till vatten. Bevattning en till två gånger i veckan kan vara lämpligt, beroende på väderförhållandena.",
+    "harvest": "Persilja kan skördas när plantan är cirka 10 cm hög. Klipp av topparna med en vass sax eller kniv och använd persiljan direkt eller torka den för senare användning.Går utmärkt att frysa.",
+    "img": "images/persilja.jpg",
+    "category": "kryddor"
+  },
+  {
+    "id": 11,
+    "name": "rädisa",
+    "placement": "Rädisor trivs i full sol och behöver minst sex timmars solljus per dag för att växa ordentligt.",
+    "soil": "Rädisor trivs i en löst packad, näringsrik jord med en pH-nivå på mellan 6 och 7. Se till att gräva upp jorden till en djup av ca 20-30 cm och tillsätt gödsel och/eller kompost för att förbättra jordens struktur och näringsinnehåll.",
+    "planting": " Rädisor är snabba att växa och kan planteras tidigt på våren eller sent på hösten. Plantera fröna direkt utomhus i rad med ca 2,5 cm avstånd mellan fröna. Täck fröna med ca 1 cm jord och vattna försiktigt.",
+    "watering": "Rädisor behöver regelbundet vatten för att trivas. Se till att vattna dem ordentligt och regelbundet, men undvik att övervattna för att undvika att rädisorna ruttnar.",
+    "harvest": "Rädisorna är redo att skördas när de är ca 2-3 cm i diameter. Dra upp dem försiktigt ur jorden och skölj av dem med vatten. Om du vill ha en kontinuerlig skörd kan du plantera rädisor i omgångar med några veckors mellanrum.",
+    "img": "images/rädisa.jpg",
+    "category": "rotfrukter"
+  }
+]
