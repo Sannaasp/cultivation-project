@@ -57,7 +57,7 @@
     "planting": "Plantera gurkfrön på våren eller sommaren när risken för frost har passerat. Plantera fröna ca 2,5 cm djupt och 30-45 cm isär. Du kan också plantera plantor istället för frön.",
     "watering": "Gurkor behöver mycket vatten för att trivas. Se till att vattna dem ordentligt och regelbundet, men undvik att övervattna för att undvika att gurkorna ruttnar.",
     "harvest": "Gurkorna är redo att skördas när de är ca 15-20 cm långa. Skörda dem regelbundet för att uppmuntra fortsatt produktion.",
-    "img": "images/hallon.jpg",
+    "img": "images/gurka.jpg",
     "category": "grönsaker"
   },
   {
@@ -80,7 +80,7 @@
     "watering": "Sallad behöver jämn fuktighet för att växa bra. Se till att vattna regelbundet, särskilt under torra perioder.",
     "harvest": "När salladen har nått önskad storlek kan du skörda den genom att klippa av bladen med en sax eller kniv. Lämna några blad kvar för att fortsätta växa och producera mer sallad.",
     "img": "images/sallad.jpg",
-    "cateogory": "sallad"
+    "category": "sallad"
   },
   {
     "id": 8,
