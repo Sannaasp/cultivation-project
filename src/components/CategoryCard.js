@@ -3,15 +3,11 @@ import { useParams } from "react-router-dom";
 import "../css/CategoryCard.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import "../index.css";
 
 function CategoryCard() {
   const [vegetables, setVegetables] = useState(null);
   const [filteredVegetables, setFilteredVegetables] = useState("");
-  const [selectedVeg, setSelectedVeg] = useState("");
-  const [heading, setHeading] = useState("");
-  const [description, setDescription] = useState("");
-  const [showModal, setShowModal] = useState(false);
-
   const { category } = useParams();
 
   useEffect(() => {
@@ -30,54 +26,36 @@ function CategoryCard() {
     }
   }, [vegetables, category]);
 
-  function openModal(vegetable, modalInfo) {
-    setSelectedVeg(vegetable);
-    setHeading(modalInfo.heading);
-    setDescription(modalInfo.description);
-    setShowModal(true);
-  }
-
-  function closeModal(vegetable) {
-    setSelectedVeg(null);
-  }
-
   return (
-    <div className="App">
-      <h1>{category}</h1>
+    <>
+      <h1 className="CategoryCard-title">{category}</h1>
       {filteredVegetables && (
-        <ol className="vegList">
-          <div className="vegBox">
-            {filteredVegetables.map((vegetable) => (
-              <li key={vegetable.id}>
-                <div className="imgContainer">
-                  <img
-                    className="image"
-                    src={vegetable.img}
-                    alt={vegetable.name}
-                  />
+        <div className="CategoryCard-vegBox">
+          {filteredVegetables.map((vegetable) => (
+            <li className="CategoryCard-vegBox" key={vegetable.id}>
+              <div className="imgContainer">
+                <img
+                  className="imageCategory"
+                  src={vegetable.img}
+                  alt={vegetable.name}
+                />
+                <div className="CategoryCard-container">
+                  <h1 className="CategoryCard-nameContainer">
+                    {vegetable.name.charAt(0).toUpperCase() +
+                      vegetable.name.slice(1)}
+                  </h1>
+
+                  <p className="Vegetable-shorttext">{vegetable.shorttext}</p>
+                  <Link to={`/VegView/${vegetable.name}`}>
+                    <button className="CategoryCard-button">Läs mer </button>
+                  </Link>
                 </div>
-                <div className="nameContainer">{vegetable.name}</div>
-                <button
-                  onClick={() =>
-                    openModal(vegetable, {
-                      heading: vegetable.name,
-                      description: vegetable.placement,
-                    })
-                  }
-                >
-                  Läs mer
-                </button>
-                <Link to={`/VegView/${vegetable.name}`}>
-                  <button>Se grönsak </button>
-                </Link>
-                <p>{heading}</p>
-                <p>{description}</p>
-              </li>
-            ))}
-          </div>
-        </ol>
+              </div>
+            </li>
+          ))}
+        </div>
       )}
-    </div>
+    </>
   );
 }
 

@@ -1,4 +1,67 @@
 .category {
-  width: 50px;
-  height: 50px;
+  width: 90%;
+  height: 70%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  text-align: center;
+}
+
+.categoryBox {
+  justify-content: center;
+  width: 48%;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.categoryBox:hover {
+  transform: scale(1.1);
+}
+
+.categoryTitle {
+  background-color: #efebe5;
+  height: 20%;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.categoryText {
+  background-color: #efebe5;
+  width: 70%;
+  height: 20%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.VegCard-button {
+  margin-top: 10px;
+}
+
+.VegCard-container {
+  height: 30%;
+}
+
+@media (min-width: 600px) {
+  .categoryBox {
+    margin: 20px;
+  }
+  .category {
+    width: 80%;
+    height: 560%;
+  }
+  .categoryText {
+    background-color: #efebe5;
+    width: 70%;
+    height: 20%;
+    text-align: center;
+  }
 }

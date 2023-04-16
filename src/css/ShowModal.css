@@ -1,0 +1,27 @@
+.ShowModal-container {
+  background-color: white;
+  border-radius: -10px;
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  z-index: 1;
+  width: 300px;
+}
+
+.ShowModal-text {
+  padding: 20px;
+}
+
+.ShowModal-title {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.VegView-infoContainer {
+  position: relative;
+}
+
+.ShowModal-advantages {
+  font-size: 30px;
+}

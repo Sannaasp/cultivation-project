@@ -3,7 +3,6 @@
   color: #504139;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
 }
 
 a:visited {
@@ -16,27 +15,17 @@ a {
 
 .hamburger-menu {
   display: flex;
-  /* display: flex;
-  position: absolute;
-  z-index: 1;
-  top: 50px;
-  left: 0; */
 }
 
 .menu {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  background-color: lightgrey;
-  padding: 20px;
-  width: 50%;
   position: absolute;
   z-index: 1;
   text-align: center;
   top: 50px;
   display: block;
-
-  /* top: 50px; */
 }
 
 .menu li {
@@ -48,14 +37,15 @@ a {
   z-index: 0;
 }
 
-.App-start {
+.headingText {
   position: absolute;
   top: 170px;
-  right: 150px;
+  right: 270px;
   padding-bottom: 10px;
   border-radius: 10px;
   width: 100px;
   height: 40px;
+  color: white;
 }
 
 .searchIcon {
@@ -70,4 +60,12 @@ a {
 .searchField {
   display: flex;
   flex-direction: row;
+}
+
+.infoText {
+  color: #504139;
+  margin: 50px;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
 }

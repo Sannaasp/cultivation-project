@@ -1,20 +1,73 @@
-.image {
-  width: 50%;
-  height: 50%;
+.imageCategory {
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .vegBox {
-  background-color: #efebe4;
-  height: 300px;
-  width: 300px;
   display: flex;
+  text-decoration: none;
   flex-wrap: wrap;
-  justify-content: center;
-  list-style: none;
-  border-radius: 10px;
 }
 
-.imgContainer {
-  background-color: #efebe4;
-  margin: 10px;
+.vegContainer {
+  flex-direction: column;
+}
+
+.CategoryCard-vegBox {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.CategoryCard-container {
+  background-color: #efebe5;
+  text-align: center;
+  height: 350px;
+  position: relative;
+}
+
+.CategoryCard-title {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.CategoryCard-nameContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.CategoryCard-vegBox {
+  text-align: center;
+}
+
+.Vegetable-shorttext {
+  padding: 10px;
+  text-align: center;
+}
+
+.CategoryCard-button {
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-60%);
+  background-color: white;
+  border: 1px solid #e8cac3;
+  font-family: Lato, sans-serif;
+  width: 150px;
+  height: 40px;
+  border: none;
+  margin: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+
+.CategoryCard-button:hover {
+  background-color: #504139;
+  color: white;
 }

@@ -1,0 +1,148 @@
+.vegBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  border-radius: 10px;
+}
+
+li {
+  font-family: Poppins;
+}
+
+.VegView-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.imgContainer {
+  object-fit: cover;
+  width: 100%;
+  max-height: 30%;
+}
+
+.VegView-infoContainer {
+  list-style: none;
+  margin-right: 30px;
+  background-color: #efebe5;
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.soil {
+  width: 30%;
+  height: 30%;
+}
+
+.watering {
+  width: 30%;
+  height: 30%;
+}
+
+.planting {
+  width: 30%;
+  height: 30%;
+}
+
+.soilContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.plantContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.wateringContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.placementContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.vegInfoLeftContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.vegInfoRightContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.harvestContainer {
+  display: flex;
+  flex: row;
+  margin: 10px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.nameContainer {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  border-style: 1px solid rgba(0, 0, 0, 0.15);
+  width: 100%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  border-width: 2px;
+  border-width: 1px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.VegView-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.VegView-tip {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 950px;
+  left: 350px;
+}
+
+.Vegetable-text {
+  color: white;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .VegView-infoContainer {
+    list-style: none;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  li {
+    max-width: 400px;
+  }
+}

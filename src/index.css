@@ -1,0 +1,93 @@
+body {
+  background-color: #fffef8;
+  margin-top: 60px;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../assets/fonts/Poppins/Poppins-Thin.ttf);
+}
+
+@font-face {
+  font-family: PoppinsR;
+  src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+h1 {
+  font-family: Poppins;
+  color: #504139;
+}
+
+h2 {
+  font-family: Poppins;
+  color: #504139;
+}
+
+p {
+  font-family: Poppins;
+  color: #504139;
+}
+
+.infoText {
+  font-family: Poppins;
+  color: #504139;
+  font-weight: lighter;
+}
+
+.li {
+  color: #504139;
+  font-family: Cormorant-Garamond;
+}
+
+.button {
+  background-color: white;
+  border: 1px solid #e8cac3;
+  font-family: PoppinsR;
+  width: 150px;
+  height: 40px;
+  border: none;
+  margin: 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  color: #504139;
+}
+
+.button:hover {
+  background-color: #504139;
+  color: white;
+}
+
+.HomeView-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.light {
+  background-color: #fffef8;
+}
+
+.dark {
+  background-color: black;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.BootstrapNavbar-theme {
+  margin-left: 20px;
+}
+
+.App-img {
+  margin-top: 0;
+}
+
+.ul li {
+  font-family: Poppins;
+}

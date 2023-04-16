@@ -1,30 +1,36 @@
 import "./css/App.css";
 import "./css/NavBar.css";
 import "./css/Footer.css";
-import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { createHashRouter, Outlet, RouterProvider } from "react-router-dom";
-import About from "./components/About";
-import Vegetables from "./components/Vegetables";
+import Forum from "./components/Forum";
+import Vegetables from "./components/Vegetables.tsx";
 import HomeView from "./views/HomeView";
 import CategoryCard from "./components/CategoryCard";
 import VegView from "./views/VegView";
+import BootstrapNavbar from "./components/BootstrapNavbar";
+import "./index.css";
+import SomeContext from "./SomeContext";
+import React, { useState } from "react";
 
 function Root() {
   return (
     <div className="App">
-      <NavBar />
+      <BootstrapNavbar />
       <Outlet />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
 function App() {
+  const [addComment, setAddComment] = useState([]);
+  const [removeComment, setRemoveComment] = useState([]);
+  const [theme, setTheme] = useState("dark");
   const router = createHashRouter([
     {
       children: [
         { element: <HomeView />, path: "/" },
-        { element: <About />, path: "/about" },
+        { element: <Forum />, path: "/forum" },
         { element: <Vegetables />, path: "/vegetables" },
         { element: <CategoryCard />, path: "/CategoryCard/:category" },
         { element: <VegView />, path: "/VegView/:name" },
@@ -32,7 +38,20 @@ function App() {
       element: <Root />,
     },
   ]);
-  return <RouterProvider router={router} />;
+  return (
+    <SomeContext.Provider
+      value={{
+        addComment,
+        setAddComment,
+        removeComment,
+        setRemoveComment,
+        theme,
+        setTheme,
+      }}
+    >
+      <RouterProvider router={router} />{" "}
+    </SomeContext.Provider>
+  );
 }
 
 export default App;
